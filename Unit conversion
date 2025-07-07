@@ -1,0 +1,320 @@
+print("Volume Converter")
+
+# LITERS
+print("\n--- Liters Converter ---")
+Unit = int(input("Enter the number of liters you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to fl. oz")
+    print("2. Convert to cups")
+    print("3. Convert to pints")
+    print("4. Convert to quarts")
+    print("5. Convert to gallons")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} liters = {Unit * 33.814} fl. oz")
+    elif choice == 2:
+        print(f"{Unit} liters = {Unit * 4.22675} cups")
+    elif choice == 3:
+        print(f"{Unit} liters = {Unit * 2.11338} pints")
+    elif choice == 4:
+        print(f"{Unit} liters = {Unit * 1.05669} quarts")
+    elif choice == 5:
+        print(f"{Unit} liters = {Unit * 0.264172} gallons")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# FLUID OUNCES
+print("\n--- Fluid Ounces Converter ---")
+Unit = int(input("Enter the number of fl. oz you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to liters")
+    print("2. Convert to cups")
+    print("3. Convert to pints")
+    print("4. Convert to quarts")
+    print("5. Convert to gallons")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} fl. oz = {Unit * 0.0295735} liters")
+    elif choice == 2:
+        print(f"{Unit} fl. oz = {Unit * 0.125} cups")
+    elif choice == 3:
+        print(f"{Unit} fl. oz = {Unit * 0.0625} pints")
+    elif choice == 4:
+        print(f"{Unit} fl. oz = {Unit * 0.03125} quarts")
+    elif choice == 5:
+        print(f"{Unit} fl. oz = {Unit * 0.0078125} gallons")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# CUPS
+print("\n--- Cups Converter ---")
+Unit = int(input("Enter the number of cups you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to liters")
+    print("2. Convert to fl. oz")
+    print("3. Convert to pints")
+    print("4. Convert to quarts")
+    print("5. Convert to gallons")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} cups = {Unit * 0.236588} liters")
+    elif choice == 2:
+        print(f"{Unit} cups = {Unit * 8} fl. oz")
+    elif choice == 3:
+        print(f"{Unit} cups = {Unit * 0.5} pints")
+    elif choice == 4:
+        print(f"{Unit} cups = {Unit * 0.25} quarts")
+    elif choice == 5:
+        print(f"{Unit} cups = {Unit * 0.0625} gallons")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# PINTS
+print("\n--- Pints Converter ---")
+Unit = int(input("Enter the number of pints you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to liters")
+    print("2. Convert to fl. oz")
+    print("3. Convert to cups")
+    print("4. Convert to quarts")
+    print("5. Convert to gallons")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} pints = {Unit * 0.473176} liters")
+    elif choice == 2:
+        print(f"{Unit} pints = {Unit * 16} fl. oz")
+    elif choice == 3:
+        print(f"{Unit} pints = {Unit * 2} cups")
+    elif choice == 4:
+        print(f"{Unit} pints = {Unit * 0.5} quarts")
+    elif choice == 5:
+        print(f"{Unit} pints = {Unit * 0.125} gallons")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# QUARTS
+print("\n--- Quarts Converter ---")
+Unit = int(input("Enter the number of quarts you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to liters")
+    print("2. Convert to fl. oz")
+    print("3. Convert to cups")
+    print("4. Convert to pints")
+    print("5. Convert to gallons")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} quarts = {Unit * 0.946353} liters")
+    elif choice == 2:
+        print(f"{Unit} quarts = {Unit * 32} fl. oz")
+    elif choice == 3:
+        print(f"{Unit} quarts = {Unit * 4} cups")
+    elif choice == 4:
+        print(f"{Unit} quarts = {Unit * 2} pints")
+    elif choice == 5:
+        print(f"{Unit} quarts = {Unit * 0.25} gallons")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# GALLONS
+print("\n--- Gallons Converter ---")
+Unit = int(input("Enter the number of gallons you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to liters")
+    print("2. Convert to fl. oz")
+    print("3. Convert to cups")
+    print("4. Convert to pints")
+    print("5. Convert to quarts")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} gallons = {Unit * 3.78541} liters")
+    elif choice == 2:
+        print(f"{Unit} gallons = {Unit * 128} fl. oz")
+    elif choice == 3:
+        print(f"{Unit} gallons = {Unit * 16} cups")
+    elif choice == 4:
+        print(f"{Unit} gallons = {Unit * 8} pints")
+    elif choice == 5:
+        print(f"{Unit} gallons = {Unit * 4} quarts")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# End of the volume converter
+print("\n--- End of Volume Converter ---")
+print("Thank you for using the volume converter!")
+
+print("distance converter")
+
+# Distance Converter
+print("\n--- Distance Converter ---")
+Unit = int(input("Enter the number of kilometers you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. convert to miles")
+    print("2. convert to meters")
+    print("3. convert to yards")
+    print("4. convert to feet")
+    print("5. convert to inches")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} kilometers = {Unit * 0.621371} miles")
+    elif choice == 2:
+        print(f"{Unit} kilometers = {Unit * 1000} meters")
+    elif choice == 3:
+        print(f"{Unit} kilometers = {Unit * 1094.61} yards")
+    elif choice == 4:
+        print(f"{Unit} kilometers = {Unit * 3280.84} feet")
+    elif choice == 5:
+        print(f"{Unit} kilometers = {Unit * 39370.1} inches")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# Distance Converter for Miles
+print("\n--- Miles Converter ---")
+Unit = int(input("Enter the number of miles you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to kilometers")
+    print("2. Convert to meters")
+    print("3. Convert to yards")
+    print("4. Convert to feet")
+    print("5. Convert to inches")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} miles = {Unit * 1.60934} kilometers")
+    elif choice == 2:
+        print(f"{Unit} miles = {Unit * 1609.34} meters")
+    elif choice == 3:
+        print(f"{Unit} miles = {Unit * 1760} yards")
+    elif choice == 4:
+        print(f"{Unit} miles = {Unit * 5280} feet")
+    elif choice == 5:
+        print(f"{Unit} miles = {Unit * 63360} inches")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# Distance Converter for Meters
+print("\n--- Meters Converter ---")
+Unit = int(input("Enter the number of meters you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to kilometers")
+    print("2. Convert to miles")
+    print("3. Convert to yards")
+    print("4. Convert to feet")
+    print("5. Convert to inches")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} meters = {Unit * 0.001} kilometers")
+    elif choice == 2:
+        print(f"{Unit} meters = {Unit * 0.000621371} miles")
+    elif choice == 3:
+        print(f"{Unit} meters = {Unit * 1.09361} yards")
+    elif choice == 4:
+        print(f"{Unit} meters = {Unit * 3.28084} feet")
+    elif choice == 5:
+        print(f"{Unit} meters = {Unit * 39.3701} inches")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# Distance Converter for Yards
+print("\n--- Yards Converter ---")
+Unit = int(input("Enter the number of yards you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to kilometers")
+    print("2. Convert to miles")
+    print("3. Convert to meters")
+    print("4. Convert to feet")
+    print("5. Convert to inches")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} yards = {Unit * 0.0009144} kilometers")
+    elif choice == 2:
+        print(f"{Unit} yards = {Unit * 0.000568182} miles")
+    elif choice == 3:
+        print(f"{Unit} yards = {Unit * 0.9144} meters")
+    elif choice == 4:
+        print(f"{Unit} yards = {Unit * 3} feet")
+    elif choice == 5:
+        print(f"{Unit} yards = {Unit * 36} inches")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# Distance Converter for Feet
+print("\n--- Feet Converter ---")
+Unit = int(input("Enter the number of feet you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. Convert to kilometers")
+    print("2. Convert to miles")
+    print("3. Convert to meters")
+    print("4. Convert to yards")
+    print("5. Convert to inches")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} feet = {Unit * 0.0003048} kilometers")
+    elif choice == 2:
+        print(f"{Unit} feet = {Unit * 0.000189394} miles")
+    elif choice == 3:
+        print(f"{Unit} feet = {Unit * 0.3048} meters")
+    elif choice == 4:
+        print(f"{Unit} feet = {Unit * 0.333333} yards")
+    elif choice == 5:
+        print(f"{Unit} feet = {Unit * 12} inches")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+
+# Distance Converter for Inches
+print("\n--- Inches Converter ---")
+Unit = int(input("Enter the number of inches you want to convert: "))
+if Unit < 0:
+    print("Invalid input")
+else:
+    print("1. convert to kilometers")
+    print("2. convert to miles")
+    print("3. convert to meters")
+    print("4. convert to yards")
+    print("5. convert to feet")
+    choice = int(input("Enter your choice: "))
+    if choice == 1:
+        print(f"{Unit} inches = {Unit * 0.0000254} kilometers")
+    elif choice == 2:
+        print(f"{Unit} inches = {Unit * 0.0000157828} miles")
+    elif choice == 3:
+        print(f"{Unit} inches = {Unit * 0.0254} meters")
+    elif choice == 4:
+        print(f"{Unit} inches = {Unit * 0.0277778} yards")
+    elif choice == 5:
+        print(f"{Unit} inches = {Unit * 0.0833333} feet")
+    else:
+        print("Invalid choice")
+    print("Thank you for using this converter!")
+    
